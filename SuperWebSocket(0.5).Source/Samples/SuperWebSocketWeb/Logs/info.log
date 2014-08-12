@@ -1,0 +1,8 @@
+2012-03-23 14:10:33,187 [1864] INFO  SuperWebSocket - Session: c39d0f1d-05d7-400c-bfdc-e8a1dba5a418/127.0.0.1:2541
+New SocketSession was accepted!
+2012-03-23 14:12:09,187 [756] INFO  SuperWebSocket - Session: 73126377-f0e1-43df-896e-433652bcfd4e/127.0.0.1:2542
+New SocketSession was accepted!
+2012-03-23 14:12:09,218 [3308] INFO  SuperWebSocket - Session: c39d0f1d-05d7-400c-bfdc-e8a1dba5a418/127.0.0.1:2541
+This session was closed!
+2012-03-23 14:12:09,218 [5472] INFO  SuperWebSocket - Session: 2a99065e-9168-43c7-a93d-145f078a3ef2/127.0.0.1:2543
+New SocketSession was accepted!

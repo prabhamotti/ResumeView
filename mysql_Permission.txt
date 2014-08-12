@@ -1,0 +1,9 @@
+GRANT ALL PRIVILEGES ON *.* TO root@localhost IDENTIFIED BY 'root-password' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON *.* TO user_name@'%' IDENTIFIED BY ‘pass_word’; 
+
+flush privileges;
+
+winmsd
+
+systeminfo

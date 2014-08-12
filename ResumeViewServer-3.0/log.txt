@@ -1,0 +1,29 @@
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Filter,interview_Name:Apple Mac
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+Logging_Out#2
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+connected : localhost:2012
+Get_Interview_Names#undefined
+Logging_In#username:root,password:password,role:Feed,interview_Name:Apple Mac
+Logging_Out#8
+Get_Interview_Names#
+Logging_In#username:root,password:password,role:Filter,interview_Name:Apple Mac
+Logging_Out#9

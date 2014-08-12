@@ -1,0 +1,12 @@
+2012-03-23 14:09:10,750 [3680] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen()
+2012-03-23 14:45:06,171 [368] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.AsyncSocketServer`2.StartListen()
+2012-03-23 14:45:06,500 [4204] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen()

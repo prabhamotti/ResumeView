@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ResumeView_Console">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\ResumeView_Console.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\ResumeView_Console.suo">
+</Property><Property Name="Date" Value="Sunday, March 18, 2012">
+</Property><Property Name="Time" Value="19:33 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ResumeView_Console.sln" Description="File successfully backed up as C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\Backup\ResumeView_Console.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ResumeView_Console.suo" Description="File successfully backed up as C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\Backup\ResumeView_Console.suo">
+</Event><Event ErrorLevel="0" Project="ResumeView_Console" Source="ResumeView_Console\ResumeView_Console.csproj" Description="Project file successfully backed up as C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\Backup\ResumeView_Console\ResumeView_Console.csproj">
+</Event><Event ErrorLevel="0" Project="ResumeView_Console" Source="ResumeView_Console\Program.cs" Description="File successfully backed up as C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\Backup\ResumeView_Console\Program.cs">
+</Event><Event ErrorLevel="0" Project="ResumeView_Console" Source="ResumeView_Console\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\prabhakaran\Desktop\ResumeView_Console\Backup\ResumeView_Console\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ResumeView_Console" Source="ResumeView_Console\ResumeView_Console.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ResumeView_Console" Source="ResumeView_Console\ResumeView_Console.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ResumeView_Console.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ResumeView_Console.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ResumeView_Console" Source="ResumeView_Console\ResumeView_Console.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

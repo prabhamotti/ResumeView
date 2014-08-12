@@ -1,0 +1,4 @@
+server:localhost
+database:resumeview_DB
+uid:imikoRV
+password:alpha123

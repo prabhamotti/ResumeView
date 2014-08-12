@@ -1,0 +1,24 @@
+AP,Andhra Pradesh Telecom Circle.
+AS,Assam Telecom Circle.
+BR,Bihar & Jharkhand Telecom Circle.
+CH,Chennai Metro Telecom Circle (includes Chennai, MEPZ & Mahabalipuram).
+DL,Delhi Metro Telecom Circle (includes NCR, Faridabad, Ghaziabad, Gurgaon & Noida).
+GJ,Gujarat Telecom Circle (includes Daman & Diu, Dadra & Nagar Haveli).
+HP,Himachal Pradesh Telecom Circle.
+HR,Haryana Telecom Circle (excludes Faridabad, Gurgaon & Panchkula).
+JK,Jammu & Kashmir Telecom Circle.
+KL,Kerala Telecom Circle (includes Lakshadeep).
+KA,Karnataka Telecom Circle.
+KO,Kolkata Metro Telecom Circle (includes parts of Haora, Hooghly, North & South 24 Parganas and Nadia Districts).
+MH,Maharashtra Telecom Circle (includes Goa but excludes Mumbai, Navi Mumbai & Kalyan).
+MP,Madhya Pradesh & Chhattisgarh Telecom Circle.
+MU,Mumbai Metro Telecom Circle (includes Navi Mumbai & Kalyan)
+NE,North East India Telecom Circle (includes Arunachal Pradesh, Meghalaya, Mizoram, Nagaland, Manipur and Tripura).
+OR,Orissa Telecom Circle.
+PB,Punjab Telecom Circle (includes Chandigarh & Panchkula).
+RJ,Rajasthan Telecom Circle.
+TN,Tamil Nadu Telecom Circle (excludes CH Chennai, MEPZ, Mahabalipuram & Minjur and includes Pondicherry except Yanam & Mahe).
+UE,Uttar Pradesh (East) Telecom Circle.
+UW,Uttar Pradesh (West) & Uttarakhand Telecom Circle (excludes Ghaziabad & Noida).
+WB,West Bengal Telecom Circle (includes Andaman & Nicobar,Sikkim excludes Calcutta Telecom District).
+ZZ,Customer Care (All Over India).

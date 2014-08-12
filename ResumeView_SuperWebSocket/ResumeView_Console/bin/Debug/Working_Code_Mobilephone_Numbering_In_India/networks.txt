@@ -1,0 +1,22 @@
+AC,AIRCEL,Aircel Ltd.
+AT,AIRTEL,Bharti Airtel Ltd.
+CC,CELLONE CDMA,Bharat Sanchar Nigam Ltd
+CG,CELLONE GSM,Bharat Sanchar Nigam Ltd
+DC,DATACOM,Now renamed as Videocon Mobile Services.
+DP,DOLPHIN,Mahanagar Telephone Nigam Ltd.
+ET,ETISALAT,Getting into the market as Cheers Mobile.
+ID,IDEA,Idea Cellular Ltd.
+LM,LOOP MOBILE,Loop Telecom Ltd.
+MT,MTS CDMA,Sistema Shyam TeleServices Ltd.
+PG,PING CDMA,HFCL Infotel Ltd.
+RC,RELIANCE CDMA,Reliance Communication Ltd.
+RG,RELIANCE GSM,Reliance Communication Ltd.
+SP,SPICE,Spice Communications Limited.
+ST,S TEL,S Tel Pvt. Ltd.
+T24,T24(BIG BAZAAR),TATA Teleservices Ltd. (Franchisee model)
+TD,TATA DOCOMO,TATA Teleservices Ltd.
+TI,TATA INDICOM,TATA Teleservices Ltd.
+UN,UNINOR,Telenor Unitech Ltd.
+VC,VIRGIN MOBILE CDMA,TATA Teleservices Ltd. (Franchisee model)
+VG,VIRGIN MOBILE GSM,TATA Teleservices Ltd. (Franchisee model)
+VF,VODAFONE,Vodafone Essar Ltd.

@@ -1,0 +1,7 @@
+client side:
+mysql_Server,mysql_Database_Name,mysql_User_Name,mysql_Password,
+company_Name
+
+Server side:
+mysql_Server,mysql_Database_Name,mysql_User_Name,mysql_Password,
+ftp_Server,ftp_User_Name,ftp_Password,

@@ -1,0 +1,68 @@
+2012-03-21 11:02:39,281 [2084] INFO  SuperSocket - SuperWebSocket has been started
+2012-03-21 11:02:39,328 [2084] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-03-21 11:02:56,781 [2964] INFO  SuperWebSocket - Session: 14c87e14-c339-4b95-be46-d32171d8d624/127.0.0.1:1431
+New SocketSession was accepted!
+2012-03-21 11:02:57,281 [400] INFO  SecureSuperWebSocket - Session: 10ee259b-a9da-42d3-8750-80226256e513/127.0.0.1:1432
+New SocketSession was accepted!
+2012-03-21 11:03:01,656 [1508] INFO  SecureSuperWebSocket - Session: 10ee259b-a9da-42d3-8750-80226256e513/127.0.0.1:1432
+This session was closed!
+2012-03-21 11:06:12,875 [1628] INFO  SuperWebSocket - Session: 14c87e14-c339-4b95-be46-d32171d8d624/127.0.0.1:1431
+This session was closed!
+2012-03-21 11:06:12,875 [1628] INFO  SuperSocket - SuperWebSocket has been stopped
+2012-03-21 11:09:02,718 [376] INFO  SuperSocket - SuperWebSocket has been started
+2012-03-21 11:09:02,796 [376] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-03-21 11:09:29,453 [2204] INFO  SuperWebSocket - Session: 6d10e5c3-dc6a-42a6-8cd4-511473e9113c/127.0.0.1:1471
+New SocketSession was accepted!
+2012-03-21 11:09:30,093 [3512] INFO  SecureSuperWebSocket - Session: a180ac6a-4e9e-4003-be07-65568b3b66bb/127.0.0.1:1472
+New SocketSession was accepted!
+2012-03-21 11:09:32,046 [2332] INFO  SecureSuperWebSocket - Session: a180ac6a-4e9e-4003-be07-65568b3b66bb/127.0.0.1:1472
+This session was closed!
+2012-03-21 11:11:56,093 [376] INFO  SuperWebSocket - Session: 6d10e5c3-dc6a-42a6-8cd4-511473e9113c/127.0.0.1:1471
+This session was closed!
+2012-03-21 11:11:59,890 [376] INFO  SuperSocket - SuperWebSocket has been stopped
+2012-03-21 11:19:07,171 [3804] INFO  SuperSocket - SuperWebSocket has been started
+2012-03-21 11:19:07,359 [3804] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-03-21 11:19:23,765 [2528] INFO  SuperWebSocket - Session: bd8cab99-4350-4e2f-8be5-e658599b77d6/127.0.0.1:1574
+New SocketSession was accepted!
+2012-03-21 11:19:26,625 [1856] INFO  SecureSuperWebSocket - Session: 9423fd70-6898-4d62-988e-e6da9c4e0695/127.0.0.1:1579
+New SocketSession was accepted!
+2012-03-21 11:19:34,375 [1032] INFO  SecureSuperWebSocket - Session: 9423fd70-6898-4d62-988e-e6da9c4e0695/127.0.0.1:1579
+This session was closed!
+2012-03-21 11:19:54,781 [1480] INFO  SuperWebSocket - Session: bd8cab99-4350-4e2f-8be5-e658599b77d6/127.0.0.1:1574
+This session was closed!
+2012-03-21 11:21:14,828 [2528] INFO  SuperWebSocket - Session: b20bf413-2304-409f-94b0-f782856475de/127.0.0.1:1598
+New SocketSession was accepted!
+2012-03-21 11:21:16,093 [1856] INFO  SecureSuperWebSocket - Session: df1ee044-7f46-4740-8a97-ba5247e5971a/127.0.0.1:1600
+New SocketSession was accepted!
+2012-03-21 11:22:31,562 [1040] INFO  SecureSuperWebSocket - Session: df1ee044-7f46-4740-8a97-ba5247e5971a/127.0.0.1:1600
+This session was closed!
+2012-03-21 11:22:31,609 [3804] INFO  SuperWebSocket - Session: b20bf413-2304-409f-94b0-f782856475de/127.0.0.1:1598
+This session was closed!
+2012-03-21 12:03:27,000 [1368] INFO  SuperSocket - SuperWebSocket has been stopped
+2012-03-21 12:03:27,140 [1368] INFO  SuperSocket - SecureSuperWebSocket has been stopped
+2012-03-21 12:04:18,843 [3956] INFO  SuperSocket - SuperWebSocket has been started
+2012-03-21 12:04:18,953 [3956] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-03-21 12:04:41,296 [3960] INFO  SuperWebSocket - Session: 0c46d9f5-d55a-42bd-8b2b-3e0a15600041/127.0.0.1:2125
+New SocketSession was accepted!
+2012-03-21 12:05:05,250 [3956] INFO  SuperWebSocket - Session: 0c46d9f5-d55a-42bd-8b2b-3e0a15600041/127.0.0.1:2125
+This session was closed!
+2012-03-21 12:05:21,125 [3960] INFO  SuperWebSocket - Session: e62e6dbc-7aa9-4a9a-a095-d6f7e08d8e4b/127.0.0.1:2134
+New SocketSession was accepted!
+2012-03-21 12:05:34,906 [3960] INFO  SuperWebSocket - Session: 40183209-0b62-4ae0-90e5-f380e3996747/127.0.0.1:2149
+New SocketSession was accepted!
+2012-03-21 12:05:41,609 [3956] INFO  SuperWebSocket - Session: 40183209-0b62-4ae0-90e5-f380e3996747/127.0.0.1:2149
+This session was closed!
+2012-03-21 12:10:49,625 [2312] INFO  SuperWebSocket - Session: e62e6dbc-7aa9-4a9a-a095-d6f7e08d8e4b/127.0.0.1:2134
+This session was closed!
+2012-03-21 12:13:49,015 [3956] INFO  SuperSocket - SuperWebSocket has been stopped
+2012-03-21 12:14:48,375 [3596] INFO  SuperSocket - SuperWebSocket has been started
+2012-03-21 12:14:48,437 [3596] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-03-21 12:15:12,421 [3744] INFO  SuperWebSocket - Session: 6406d18e-cf78-45b6-bafc-5e6599f6df9d/127.0.0.1:2288
+New SocketSession was accepted!
+2012-03-21 12:15:12,890 [2652] INFO  SecureSuperWebSocket - Session: 3e0e50cc-f526-48c7-a83a-bd0317478793/127.0.0.1:2289
+New SocketSession was accepted!
+2012-03-21 12:15:17,718 [2704] INFO  SecureSuperWebSocket - Session: 3e0e50cc-f526-48c7-a83a-bd0317478793/127.0.0.1:2289
+This session was closed!
+2012-03-21 12:15:30,953 [3836] INFO  SuperWebSocket - Session: 6406d18e-cf78-45b6-bafc-5e6599f6df9d/127.0.0.1:2288
+This session was closed!
+2012-03-21 13:14:42,281 [1168] INFO  SuperSocket - SuperWebSocket has been stopped

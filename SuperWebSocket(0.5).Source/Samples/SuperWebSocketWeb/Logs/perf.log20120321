@@ -1,0 +1,468 @@
+2012-03-21 11:03:39,375 SuperSocket - CPU Usage: 0.78%, Physical Memory Usage: 50M, Virtual Memory Usage: 244M, Total Thread Count: 17
+2012-03-21 11:03:39,390 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 11:03:39,390 SuperWebSocket - Total connections: 1, total handled commands: 6, command handling speed: 0.0962406015037594/s
+2012-03-21 11:03:39,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:04:39,328 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 50M, Virtual Memory Usage: 243M, Total Thread Count: 16
+2012-03-21 11:04:39,328 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 11:04:39,328 SuperWebSocket - Total connections: 1, total handled commands: 12, command handling speed: 0.100104275286757/s
+2012-03-21 11:04:39,328 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:05:39,328 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 50M, Virtual Memory Usage: 244M, Total Thread Count: 16
+2012-03-21 11:05:39,328 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 11:05:39,328 SuperWebSocket - Total connections: 1, total handled commands: 18, command handling speed: 0.1/s
+2012-03-21 11:05:39,328 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:10:02,828 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 25M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 11:10:02,843 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 11:10:02,843 SuperWebSocket - Total connections: 1, total handled commands: 4, command handling speed: 0.0652229299363057/s
+2012-03-21 11:10:02,843 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:11:02,796 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 25M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 11:11:02,796 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 11:11:02,796 SuperWebSocket - Total connections: 1, total handled commands: 10, command handling speed: 0.100078186082877/s
+2012-03-21 11:11:02,796 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:20:07,421 SuperSocket - CPU Usage: 0.78%, Physical Memory Usage: 44M, Virtual Memory Usage: 217M, Total Thread Count: 18
+2012-03-21 11:20:07,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 11:20:07,437 SuperWebSocket - Total connections: 0, total handled commands: 5, command handling speed: 0.0795624067628046/s
+2012-03-21 11:20:07,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:21:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 4M, Virtual Memory Usage: 236M, Total Thread Count: 21
+2012-03-21 11:21:07,375 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:21:07,375 SuperWebSocket - Total connections: 0, total handled commands: 5, command handling speed: 0/s
+2012-03-21 11:21:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 11:22:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 240M, Total Thread Count: 24
+2012-03-21 11:22:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 11:22:07,375 SuperWebSocket - Total connections: 1, total handled commands: 7, command handling speed: 0.0333333333333333/s
+2012-03-21 11:22:07,375 SecureSuperWebSocket - Total connections: 1, total handled commands: 1, command handling speed: 0.0166666666666667/s
+2012-03-21 11:23:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 235M, Total Thread Count: 20
+2012-03-21 11:23:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:23:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:23:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:24:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 235M, Total Thread Count: 20
+2012-03-21 11:24:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:24:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:24:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:25:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:25:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:25:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:25:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:26:07,421 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 234M, Total Thread Count: 19
+2012-03-21 11:26:07,421 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:26:07,421 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:26:07,421 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:27:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 234M, Total Thread Count: 19
+2012-03-21 11:27:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:27:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:27:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:28:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:28:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:28:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:28:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:29:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:29:07,375 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:29:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:29:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:30:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:30:07,375 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:30:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:30:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:31:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:31:07,375 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:31:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:31:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:32:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:32:07,375 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:32:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:32:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:33:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:33:07,375 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 199
+2012-03-21 11:33:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:33:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:34:07,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:34:07,375 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:34:07,375 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:34:07,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:35:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:35:07,390 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:35:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:35:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:36:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:36:07,390 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:36:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:36:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:37:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:37:07,390 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:37:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:37:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:38:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:38:07,390 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:38:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:38:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:39:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:39:07,390 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 199
+2012-03-21 11:39:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:39:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:40:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:40:07,390 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 199
+2012-03-21 11:40:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:40:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:41:07,390 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:41:07,390 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 199
+2012-03-21 11:41:07,390 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:41:07,390 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:42:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 23M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:42:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:42:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:42:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:43:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 23M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:43:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:43:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:43:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:44:08,265 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:44:08,265 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:44:08,265 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:44:08,265 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:45:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:45:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:45:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:45:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:46:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 20M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:46:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:46:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:46:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:47:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:47:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:47:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:47:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:48:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:48:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:48:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:48:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:49:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:49:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:49:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:49:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:50:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:50:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:50:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:50:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:51:07,421 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:51:07,421 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:51:07,421 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:51:07,421 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:52:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:52:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:52:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:52:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:53:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:53:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:53:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:53:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:54:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 21M, Virtual Memory Usage: 231M, Total Thread Count: 16
+2012-03-21 11:54:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:54:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:54:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:55:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 232M, Total Thread Count: 17
+2012-03-21 11:55:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:55:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:55:07,421 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:56:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:56:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:56:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:56:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:57:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:57:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:57:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:57:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:58:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:58:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:58:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:58:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 11:59:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 233M, Total Thread Count: 18
+2012-03-21 11:59:07,421 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 11:59:07,421 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 11:59:07,421 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 12:00:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 22M, Virtual Memory Usage: 234M, Total Thread Count: 19
+2012-03-21 12:00:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 12:00:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 12:00:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 12:01:07,406 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 23M, Virtual Memory Usage: 236M, Total Thread Count: 21
+2012-03-21 12:01:07,406 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 12:01:07,406 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 12:01:07,406 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 12:02:07,421 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 23M, Virtual Memory Usage: 236M, Total Thread Count: 21
+2012-03-21 12:02:07,421 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 12:02:07,421 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 12:02:07,421 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 12:03:07,421 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 23M, Virtual Memory Usage: 236M, Total Thread Count: 21
+2012-03-21 12:03:07,421 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 199
+2012-03-21 12:03:07,421 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 12:03:07,421 SecureSuperWebSocket - Total connections: 0, total handled commands: 1, command handling speed: 0/s
+2012-03-21 12:05:19,046 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 46M, Virtual Memory Usage: 237M, Total Thread Count: 16
+2012-03-21 12:05:19,078 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:05:19,109 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0.0485707057930686/s
+2012-03-21 12:05:19,109 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:06:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 238M, Total Thread Count: 16
+2012-03-21 12:06:18,953 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:06:18,953 SuperWebSocket - Total connections: 1, total handled commands: 5, command handling speed: 0.0334029227557411/s
+2012-03-21 12:06:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:07:19,375 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 238M, Total Thread Count: 16
+2012-03-21 12:07:19,375 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:07:19,375 SuperWebSocket - Total connections: 1, total handled commands: 5, command handling speed: 0/s
+2012-03-21 12:07:19,375 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:08:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 238M, Total Thread Count: 16
+2012-03-21 12:08:18,953 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:08:18,953 SuperWebSocket - Total connections: 1, total handled commands: 5, command handling speed: 0/s
+2012-03-21 12:08:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:09:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 238M, Total Thread Count: 16
+2012-03-21 12:09:18,953 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:09:18,953 SuperWebSocket - Total connections: 1, total handled commands: 5, command handling speed: 0/s
+2012-03-21 12:09:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:10:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 237M, Total Thread Count: 15
+2012-03-21 12:10:18,953 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:10:18,953 SuperWebSocket - Total connections: 1, total handled commands: 5, command handling speed: 0/s
+2012-03-21 12:10:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:11:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 238M, Total Thread Count: 15
+2012-03-21 12:11:18,953 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:11:18,953 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0.0333333333333333/s
+2012-03-21 12:11:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:12:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 48M, Virtual Memory Usage: 238M, Total Thread Count: 15
+2012-03-21 12:12:18,953 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:12:18,953 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 12:12:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:13:18,953 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 49M, Virtual Memory Usage: 238M, Total Thread Count: 15
+2012-03-21 12:13:18,953 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:13:18,953 SuperWebSocket - Total connections: 0, total handled commands: 7, command handling speed: 0/s
+2012-03-21 12:13:18,953 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:15:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 51M, Virtual Memory Usage: 246M, Total Thread Count: 17
+2012-03-21 12:15:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:15:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0.0490546755237609/s
+2012-03-21 12:15:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:16:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 51M, Virtual Memory Usage: 247M, Total Thread Count: 18
+2012-03-21 12:16:48,437 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:16:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:16:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:17:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 246M, Total Thread Count: 17
+2012-03-21 12:17:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:17:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:17:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:18:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:18:48,437 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:18:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:18:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:19:48,453 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:19:48,453 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:19:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:19:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:20:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:20:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:20:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:20:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:21:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:21:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:21:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:21:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:22:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:22:48,437 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:22:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:22:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:23:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:23:48,437 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:23:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:23:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:24:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:24:48,453 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:24:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:24:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:25:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:25:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:25:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:25:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:26:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:26:48,437 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:26:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:26:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:27:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:27:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:27:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:27:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:28:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:28:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:28:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:28:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:29:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:29:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:29:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:29:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:30:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 245M, Total Thread Count: 16
+2012-03-21 12:30:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:30:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:30:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:31:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:31:48,437 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:31:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:31:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:32:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:32:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:32:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:32:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:33:48,453 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:33:48,453 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:33:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:33:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:34:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:34:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:34:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:34:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:35:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:35:48,437 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:35:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:35:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:36:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:36:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:36:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:36:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:37:48,437 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 244M, Total Thread Count: 15
+2012-03-21 12:37:48,437 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:37:48,437 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:37:48,437 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:38:48,453 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 55M, Virtual Memory Usage: 372M, Total Thread Count: 15
+2012-03-21 12:38:48,453 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:38:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:38:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:39:48,453 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 372M, Total Thread Count: 15
+2012-03-21 12:39:48,453 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:39:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:39:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:40:48,453 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 372M, Total Thread Count: 15
+2012-03-21 12:40:48,453 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:40:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:40:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:41:48,453 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 372M, Total Thread Count: 15
+2012-03-21 12:41:48,453 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:41:48,453 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:41:48,453 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:42:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 372M, Total Thread Count: 15
+2012-03-21 12:42:48,468 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:42:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:42:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:43:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:43:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:43:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:43:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:44:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:44:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:44:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:44:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:45:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:45:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:45:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:45:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:46:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:46:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:46:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:46:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:47:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:47:48,468 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:47:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:47:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:48:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:48:48,468 SuperSocket - AvailableWorkingThreads: 197, AvailableCompletionPortThreads: 200
+2012-03-21 12:48:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:48:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:49:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 373M, Total Thread Count: 16
+2012-03-21 12:49:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:49:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:49:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:50:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:50:48,468 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:50:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:50:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:51:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:51:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:51:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:51:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:52:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:52:48,468 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:52:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:52:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:53:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:53:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:53:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:53:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:54:48,468 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:54:48,468 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 12:54:48,468 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:54:48,468 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:55:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:55:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:55:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:55:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:56:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:56:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:56:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:56:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:57:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 54M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:57:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:57:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:57:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:58:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 55M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:58:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:58:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:58:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 12:59:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 55M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 12:59:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 12:59:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 12:59:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:00:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 55M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:00:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 13:00:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:00:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:01:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 55M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:01:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 13:01:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:01:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:02:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 55M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:02:48,484 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 13:02:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:02:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:03:48,500 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:03:48,500 SuperSocket - AvailableWorkingThreads: 196, AvailableCompletionPortThreads: 200
+2012-03-21 13:03:48,500 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:03:48,500 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:04:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:04:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:04:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:04:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:05:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 52M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:05:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:05:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:05:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:06:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:06:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:06:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:06:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:07:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:07:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:07:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:07:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:08:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:08:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:08:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:08:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:09:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:09:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:09:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:09:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:10:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:10:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:10:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:10:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:11:48,500 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:11:48,500 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:11:48,500 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:11:48,500 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:12:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:12:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:12:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:12:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s
+2012-03-21 13:13:48,484 SuperSocket - CPU Usage: 0.00%, Physical Memory Usage: 53M, Virtual Memory Usage: 376M, Total Thread Count: 19
+2012-03-21 13:13:48,484 SuperSocket - AvailableWorkingThreads: 198, AvailableCompletionPortThreads: 200
+2012-03-21 13:13:48,484 SuperWebSocket - Total connections: 0, total handled commands: 3, command handling speed: 0/s
+2012-03-21 13:13:48,484 SecureSuperWebSocket - Total connections: 0, total handled commands: 0, command handling speed: 0/s

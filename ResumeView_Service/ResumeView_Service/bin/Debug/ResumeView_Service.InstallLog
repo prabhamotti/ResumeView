@@ -1,0 +1,487 @@
+﻿Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe assembly.
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe assembly.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source My Service.
+Warning: The source My Service is not registered on the local machine.
+Service My Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service My Service...
+Service My Service has been successfully installed.
+Creating EventLog source My Service in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Attempt to stop service ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Attempt to stop service ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Attempt to stop service ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Attempt to stop service ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Attempt to stop service ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Attempt to stop service ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Service ResumeView Server is being removed from the system...
+Service ResumeView Server was successfully removed from the system.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Creating EventLog source ResumeView Server in log Application...
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Restoring event log to previous state for source ResumeView Server.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Removing EventLog source ResumeView Server.
+Warning: The source ResumeView Server is not registered on the local machine.
+Service ResumeView Server is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe
+Installing service ResumeView Server...
+Service ResumeView Server has been successfully installed.
+Creating EventLog source ResumeView Server in log Application...
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\ResumeView_Service\ResumeView_Service\bin\Debug\ResumeView_Service.exe

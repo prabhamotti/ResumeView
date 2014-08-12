@@ -1,0 +1,56 @@
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\bin\Debug\Remainder.exe
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\bin\Debug\Remainder.pdb
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\Remainder.form_Remainder.resources
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\Remainder.Properties.Resources.resources
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\Remainder.exe
+C:\Documents and Settings\prabhakaran\Local Settings\Application Data\Temporary Projects\Remainder\obj\x86\Debug\Remainder.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\Remainder.exe
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\Remainder.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\bin\Debug\Remainder.exe
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\bin\Debug\Remainder.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\Remainder.form_Remainder.resources
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\Remainder.Properties.Resources.resources
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\prabhakaran\Desktop\Remainder\Remainder\obj\x86\Debug\Remainder.Job_Form.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\Remainder.exe
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\Remainder.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\bin\Debug\Remainder.exe
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\bin\Debug\Remainder.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\Remainder.Properties.Resources.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\Reminder.Reminder_Creator_Form.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\Reminder.Form_Reminder.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\bin\Debug\Remainder.exe.config
+C:\DeskTop Folders Temp\Capricorn Solutions\Remainder\Remainder\obj\x86\Debug\Reminder.LoginWindow.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\Remainder.exe.config
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Remainder.exe
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Remainder.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\Remainder.exe
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\Remainder.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.Form_Reminder.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.Reminder_Creator_Form.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.LoginWindow.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Remainder.Properties.Resources.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\WebSocket4Net.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SimpleJson.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\WebSocket4Net.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\bin\Debug\SuperSocket.ClientEngine.Protocol.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.form_Notification.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.Form_Settings.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.Welcome_Window.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Reminder Client\Remainder\obj\x86\Debug\Reminder.Job_Display_Form.resources

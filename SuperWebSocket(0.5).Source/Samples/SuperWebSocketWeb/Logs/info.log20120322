@@ -1,0 +1,8 @@
+2012-03-22 10:49:22,234 [2368] INFO  SuperSocket - SuperWebSocket has been started
+2012-03-22 10:49:22,312 [2368] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-03-22 10:49:43,218 [3996] INFO  SuperSocket - SuperWebSocket has been stopped
+2012-03-22 10:49:43,328 [3996] INFO  SuperSocket - SecureSuperWebSocket has been stopped
+2012-03-22 10:50:06,546 [3600] INFO  SuperWebSocket - Session: 79dcc0ed-a5d3-4d3c-add1-8ce44c4c4294/127.0.0.1:2321
+New SocketSession was accepted!
+2012-03-22 10:50:31,703 [3996] INFO  SuperWebSocket - Session: 79dcc0ed-a5d3-4d3c-add1-8ce44c4c4294/127.0.0.1:2321
+This session was closed!

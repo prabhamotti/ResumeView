@@ -1,0 +1,3 @@
+ftp_Server:127.0.0.1
+ftp_Username:root
+ftp_Password:password

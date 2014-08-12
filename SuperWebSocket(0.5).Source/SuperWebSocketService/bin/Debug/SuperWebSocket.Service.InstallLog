@@ -1,0 +1,36 @@
+﻿Installing assembly 'C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe
+Unable to create an instance of the SuperWebSocket.Service.SuperWebSocketInstaller installer type.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+The inner exception System.ArgumentException was thrown with the following error message: Service name  contains invalid characters, is empty, or is too long (max length = 80)..
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe
+Unable to create an instance of the SuperWebSocket.Service.SuperWebSocketInstaller installer type.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+The inner exception System.ArgumentException was thrown with the following error message: Service name  contains invalid characters, is empty, or is too long (max length = 80)..
+Installing assembly 'C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe
+Unable to create an instance of the SuperWebSocket.Service.SuperWebSocketInstaller installer type.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+The inner exception System.ArgumentException was thrown with the following error message: Service name  contains invalid characters, is empty, or is too long (max length = 80)..
+Rolling back assembly 'C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\My Documents\Downloads\SuperWebSocket(0.5).Source\SuperWebSocketService\bin\Debug\SuperWebSocket.Service.exe
+Unable to create an instance of the SuperWebSocket.Service.SuperWebSocketInstaller installer type.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+The inner exception System.ArgumentException was thrown with the following error message: Service name  contains invalid characters, is empty, or is too long (max length = 80)..

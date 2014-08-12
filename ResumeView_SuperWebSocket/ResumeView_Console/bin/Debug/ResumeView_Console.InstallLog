@@ -1,0 +1,21 @@
+﻿Installing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe assembly.
+Committing assembly 'C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.InstallLog
+   assemblypath = C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\prabhakaran\Desktop\Resume_View\ResumeView_SuperWebSocket\ResumeView_Console\bin\Debug\ResumeView_Console.exe assembly.
