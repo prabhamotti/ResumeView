@@ -1,0 +1,84 @@
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Properties.Resources.resources
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\WebSocket4Net.dll
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SimpleJson.dll
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\WebSocket4Net.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Protocol.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.exe
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.form_Control_Panel.resources
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Login.resources
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Change_Password.resources
+C:\Documents and Settings\prabhakaran\Desktop\Admin_Window\Admin_Window\Admin_Window\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.exe
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Change_Password.resources
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.form_Control_Panel.resources
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Login.resources
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Properties.Resources.resources
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Record.resources
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe.config
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Statistics.resources
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Protocol.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SimpleJson.dll
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe.config
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.exe
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.pdb
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Change_Password.resources
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.form_Control_Panel.resources
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Login.resources
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Properties.Resources.resources
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Record.resources
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Statistics.resources
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.pdb
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\MySql.Data.dll
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Protocol.pdb
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+C:\Desktop Folders\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe.config
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.exe
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Change_Password.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.form_Control_Panel.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Login.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Properties.Resources.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Record.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.Statistics.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.exe
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\Admin_Window.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\MySql.Data.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.dll
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.User_Form.resources
+C:\DeskTop Folders Temp\Capricorn Solutions\Admin_Window\Admin_Window\Admin_Window\obj\x86\Debug\Admin_Window.User_Display_Form.resources

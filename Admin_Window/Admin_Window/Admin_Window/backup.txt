@@ -1,0 +1,885 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+using WebSocket4Net;
+using Microsoft.Office.Interop.Word;
+
+using MySql.Data.MySqlClient;
+
+using Common_Classes;
+
+namespace Admin_Window
+{
+    public partial class form_Control_Panel : Form
+    {
+        WebSocket webSocket;
+        //form_Control_Panel form;
+        Login login;
+        Change_Password change_Password_Window;
+        System.Collections. Concurrent.ConcurrentDictionary<string, User_Detail > users_Details; //username,password
+
+        MySqlConnection mySqlConnection;
+        MySqlDataAdapter mySqlDataAdapter;
+        MySqlCommandBuilder mySqlCommandBuilder;
+        DataTable dataTable;
+        BindingSource bindingSource;
+
+        string mysql_Server;
+        string mysql_Database_Name;
+        string username;
+        string password;
+
+        private void bind(string table_Name)
+        {
+            string query = "SELECT * FROM "+table_Name;
+
+            mySqlDataAdapter = new MySqlDataAdapter(query, mySqlConnection);
+            mySqlCommandBuilder = new MySqlCommandBuilder(mySqlDataAdapter);
+
+            //mySqlDataAdapter.UpdateCommand = mySqlCommandBuilder.GetUpdateCommand();
+            //mySqlDataAdapter.DeleteCommand = mySqlCommandBuilder.GetDeleteCommand();
+            //mySqlDataAdapter.InsertCommand = mySqlCommandBuilder.GetInsertCommand();
+
+            dataTable = new DataTable();
+            mySqlDataAdapter.Fill(dataTable);
+
+            bindingSource = new BindingSource();
+            bindingSource.DataSource = dataTable;
+
+            //SetControlPropertyThreadSafe(dataGridView1, "DataSource", bindingSource);
+            //dataGridView1.DataSource = bindingSource;
+        }
+
+        private void bind_Null_Table()
+        {
+            string query = "SELECT * FROM rv_0";
+
+            mySqlDataAdapter = new MySqlDataAdapter(query, mySqlConnection);
+            mySqlCommandBuilder = new MySqlCommandBuilder(mySqlDataAdapter);
+
+            //mySqlDataAdapter.UpdateCommand = mySqlCommandBuilder.GetUpdateCommand();
+            //mySqlDataAdapter.DeleteCommand = mySqlCommandBuilder.GetDeleteCommand();
+            //mySqlDataAdapter.InsertCommand = mySqlCommandBuilder.GetInsertCommand();
+
+            dataTable = new DataTable();
+            mySqlDataAdapter.Fill(dataTable);
+
+            bindingSource = new BindingSource();
+            bindingSource.DataSource = dataTable;
+
+            //SetControlPropertyThreadSafe(dataGridView1, "DataSource", bindingSource);
+            //dataGridView1.DataSource = bindingSource;
+        }
+
+        Thread refreshing_Thread;
+        bool thread_Stop;
+        string view;
+        bool update_Users_Details;
+        bool qualified_Count_Status;
+        private System.Collections.Concurrent.ConcurrentDictionary<string, Candidates_Count_Detail> Candidates_Count_Dict = null;   //Dict of <Interviewname,filtyered_Persons_count>
+        bool filtered_Counts_Refreshed_Status;
+        bool remaining_SMS_Count_Changed;
+
+        double remaining_SMS_Count;
+
+        void update_UI_With_Data()
+        {
+            while (!thread_Stop)
+            {
+                if (view == "login_View")
+                {
+                    change_Into_Log_In_View();
+                    view = "";
+                }
+                else if (view == "logout_View")
+                {
+                    clear_Fields();
+                    change_Into_Log_Out_View();
+                    view = "";
+                }
+                else if (view == "initial View")
+                {
+                    clear_Fields();
+                    change_Into_Log_Out_View();
+                    SetControlPropertyThreadSafe(button_Login, "Enabled", false);
+                    SetControlPropertyThreadSafe(button_Connect_Server, "Enabled", true);
+                    SetControlPropertyThreadSafe(button_Connect_Server, "BackgroundImage", null);
+                    users_Details.Clear();
+                    refresh_ListView_Users();
+                    Candidates_Count_Dict.Clear();
+                    refresh_ListView_Candidates();
+
+                    view = "";
+                }
+
+
+                if (update_Users_Details)
+                {
+                    clear_Fields();
+                    refresh_ListView_Users();
+                    update_Users_Details = false;
+                }
+
+                if (qualified_Count_Status)
+                {
+                    qualified_Count_Status = false;
+                }
+
+                if (filtered_Counts_Refreshed_Status)
+                {
+                    SetControlPropertyThreadSafe(textBox_InterView_Name, "Text", "");
+                    refresh_ListView_Candidates();
+                    filtered_Counts_Refreshed_Status = false;
+                }
+
+                if (remaining_SMS_Count_Changed)
+                {
+                    SetControlPropertyThreadSafe(label_Remaining_SMS_Count,"Text",remaining_SMS_Count.ToString());
+                    remaining_SMS_Count_Changed = false;
+                }
+             
+                Thread.Sleep(1000);
+            }
+        }
+
+        private delegate void SetControlPropertyThreadSafeDelegate(Control control, string propertyName, object propertyValue);
+
+        public static void SetControlPropertyThreadSafe(Control control, string propertyName, object propertyValue)
+        {
+            if (control.InvokeRequired)
+            {
+                control.Invoke(new SetControlPropertyThreadSafeDelegate(SetControlPropertyThreadSafe), new object[] { control, propertyName, propertyValue });
+            }
+            else
+            {
+                control.GetType().InvokeMember(propertyName, System.Reflection.BindingFlags.SetProperty, null, control, new object[] { propertyValue });
+            }
+        }
+
+        private void load_Mysql_Settings()
+        {
+            System.IO.StreamReader reader = new System.IO.StreamReader("mysql_Settings.txt");
+            while(!reader.EndOfStream)
+            {
+                string single_Line = reader.ReadLine();
+                if(single_Line.Contains("mysql_Server"))
+                    mysql_Server = single_Line.Substring(single_Line.IndexOf(":")+1);
+                else if(single_Line.Contains("mysql_Database_Name"))
+                    mysql_Database_Name = single_Line.Substring(single_Line.IndexOf(":")+1);
+                else if(single_Line.Contains("username"))
+                    username = single_Line.Substring(single_Line.IndexOf(":")+1);
+                else if(single_Line.Contains("password"))
+                    password = single_Line.Substring(single_Line.IndexOf(":")+1);
+            }
+        }
+
+        public form_Control_Panel()
+        {
+            InitializeComponent();
+
+            
+            this.FormClosed += new FormClosedEventHandler(form_Control_Panel_FormClosed);
+
+            refreshing_Thread = new Thread(new ThreadStart(this.update_UI_With_Data));
+            view = "";
+            update_Users_Details = false;
+            qualified_Count_Status = false;
+            filtered_Counts_Refreshed_Status = false;
+            remaining_SMS_Count_Changed = false;
+            thread_Stop = false;
+
+            load_Mysql_Settings();
+            mySqlConnection = new MySqlConnection("SERVER=" + mysql_Server + ";" + "DATABASE=" + mysql_Database_Name + ";" + "UID=" + username + ";" + "PASSWORD=" + password + ";");
+            mySqlConnection.Open();
+            
+            refreshing_Thread.Start();
+            change_Password_Window = null;
+        }
+
+        void form_Control_Panel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            thread_Stop = true;
+            refreshing_Thread.Join();
+        }
+
+        public void Initialize_WebSocket()
+        {
+            System.IO.StreamReader reader = new System.IO.StreamReader("settings.txt");
+
+            string server_Address = "";
+            string port = "";
+            while (!reader.EndOfStream)
+            {
+                string temp = reader.ReadLine();
+                string variable = temp.Substring(0, temp.IndexOf(":"));
+                string value = temp.Substring(temp.IndexOf(":") + 1);
+
+                if (variable == "websocket_Server_Address")
+                    server_Address = value;
+                if (variable == "port")
+                    port = value;
+            }
+            webSocket = new WebSocket("ws://" + server_Address + ":" + port + "/");
+            webSocket.Opened += new EventHandler(on_Connection_Opened);
+            webSocket.MessageReceived += new EventHandler<MessageReceivedEventArgs>(on_Message_Received);
+            webSocket.Closed += new EventHandler(on_WebSocket_Closed);
+            webSocket.Open();
+        }
+
+        void on_WebSocket_Closed(object sender, EventArgs e)
+        {
+            view = "initial View";
+        }
+
+        private void on_Connection_Opened(Object sender, EventArgs e)
+        {
+            MessageBox.Show("Connection got established with the server");
+        }
+
+        private void on_Message_Received(Object sender, MessageReceivedEventArgs e)
+        {
+            if (e.Message == "Message|^|Welcome client")
+            {
+                view = "logout_View";
+                return;
+            }
+
+            string type = e.Message.Substring(0, e.Message.IndexOf("|^|"));
+
+            if (type == "Message")
+            {
+                //this.InitializeComponent();
+                MessageBox.Show(e.Message.Substring(e.Message.IndexOf("|^|") + 3));
+            }
+            else if (type == "InterView_Names")
+            {
+                return;
+            }
+            else if (type == "Loggin_Accepted")
+            {
+                MessageBox.Show("Login Accepted");
+                view = "login_View";
+            }
+            else if (type == "Users_Details")
+            {
+                if (users_Details == null)
+                    users_Details = new System.Collections.Concurrent.ConcurrentDictionary<string, User_Detail>();
+                string content = e.Message.Substring(e.Message.IndexOf("|^|") + 3);
+                users_Details.Clear();
+
+                string separator = ";";
+                string[] lines = content.Split(separator.ToCharArray());
+                foreach (string line in lines)
+                {
+                    User_Detail temp_User_Detail = new User_Detail(line.Substring(line.IndexOf(":") + 1));
+                    users_Details.TryAdd(line.Substring(0, line.IndexOf(":")),temp_User_Detail);
+                }
+                update_Users_Details = true;
+            }
+            else if (type == "Admin_Log_Out_Accepted")
+            {
+                users_Details.Clear();
+                Candidates_Count_Dict.Clear();
+                view = "logout_View";
+            }
+            else if (type == "Refresh_Counts")
+            {
+                filtered_Counts_Refreshed_Status = true;
+                if (Candidates_Count_Dict == null)
+                    Candidates_Count_Dict = new System.Collections.Concurrent.ConcurrentDictionary<string, Candidates_Count_Detail>();
+                Candidates_Count_Dict.Clear();
+                string temp_String = e.Message.Substring(e.Message.IndexOf("|^|") + 3);
+                if (temp_String == "")
+                    return;
+                foreach (string single_String in temp_String.Split(";".ToCharArray()))
+                {
+                    string[] temps = single_String.Split("~".ToCharArray());
+                    string interview_Name = temps[0];
+                    int filtered_Count = int.Parse(temps[1]);
+                    int qualified_Count = int.Parse(temps[2]);
+
+                    Candidates_Count_Dict.TryAdd(interview_Name, new Candidates_Count_Detail(interview_Name, filtered_Count, qualified_Count));
+                }
+            }
+            else if (type == "Filtered_Candidates_Details")
+            {
+                string main = e.Message.Substring(e.Message.IndexOf("|^|") + 3);
+                Dictionary<string, Dictionary<string, Candidate_Detail>> temp_Dict = new Dictionary<string, Dictionary<string, Candidate_Detail>>();
+
+                string[] temp = main.Split(";".ToCharArray());
+
+                foreach (string temp_0 in temp)
+                {
+                    string network = temp_0.Substring(0, temp_0.IndexOf(":"));
+                    string[] temp_1 = temp_0.Substring(temp_0.IndexOf(":") + 1).Split("`".ToCharArray());
+                    Dictionary<string, Candidate_Detail> temp_5 = new Dictionary<string, Candidate_Detail>();
+                    foreach (string temp_2 in temp_1)
+                    {
+                        string[] temp_3 = temp_2.Split("~".ToCharArray());
+                        Candidate_Detail temp_Candidate = new Candidate_Detail(temp_3[0], temp_3[1], temp_3[2]);
+                        temp_5.Add(temp_Candidate.phone_No, temp_Candidate);
+                    }
+                    temp_Dict.Add(network, temp_5);
+                }
+
+
+                Microsoft.Office.Interop.Word.Application word_App = new Microsoft.Office.Interop.Word.Application();
+
+                Microsoft.Office.Interop.Word.Document word_Doc = word_App.Documents.Add();//CurDir() & "\general_Template_0.dotx", System.Reflection.Missing.Value, False, False)
+
+                Microsoft.Office.Interop.Word.Paragraph temp_Para = word_Doc.Paragraphs.Add();
+                temp_Para.Range.Font.Bold = 2;
+                temp_Para.Range.Font.Size = 18;
+                temp_Para.Range.Underline = WdUnderline.wdUnderlineSingle;
+                temp_Para.Range.Text = "Filtered Candidates";
+                temp_Para.Alignment = WdParagraphAlignment.wdAlignParagraphCenter;
+
+                int i = 1;
+
+                foreach (System.Collections.Generic.KeyValuePair<String, Dictionary<string, Candidate_Detail>> key_Value_Pair in temp_Dict)
+                {
+                    word_Doc.Paragraphs.Add();
+                    word_Doc.Paragraphs.Last.Range.Text = key_Value_Pair.Key;
+                    word_Doc.Tables.Add(word_Doc.Paragraphs.Last.Range, 2, 1);
+
+                    {
+                        var p = word_Doc.Tables[i];
+                        p.Range.Font.Bold = 2;
+                        p.Range.Font.Size = 18;
+                        p.AllowPageBreaks = false;
+                        p.Rows.AllowBreakAcrossPages = 0;
+                        word_Doc.Tables[i].Cell(2, 1).Split(key_Value_Pair.Value.Count + 1, 3);
+
+                        p.Range.Font.Underline = WdUnderline.wdUnderlineNone;
+                        p.Range.Font.Bold = 0;
+                        p.Range.Font.Size = 11;
+
+                        p.Borders[WdBorderType.wdBorderLeft].Visible = true;
+                        p.Borders[WdBorderType.wdBorderRight].Visible = true;
+                        p.Borders[WdBorderType.wdBorderVertical].Visible = true;
+                        p.Borders[WdBorderType.wdBorderBottom].Visible = true;
+
+                        p.Cell(1, 1).Range.Text = "Network Name : " + key_Value_Pair.Key;
+                        {
+                            var q = p.Cell(1, 1);
+                            q.Borders[WdBorderType.wdBorderBottom].LineStyle = WdLineStyle.wdLineStyleDouble;
+                            q.Borders[WdBorderType.wdBorderTop].LineStyle = WdLineStyle.wdLineStyleDouble;
+                            q.Borders[WdBorderType.wdBorderLeft].LineStyle = WdLineStyle.wdLineStyleDouble;
+                            q.Borders[WdBorderType.wdBorderRight].LineStyle = WdLineStyle.wdLineStyleDouble;
+                        }
+
+                        p.Cell(2, 1).Range.Text = "Name";
+                        p.Cell(2, 1).Row.Borders[WdBorderType.wdBorderBottom].Visible = true;
+                        p.Cell(2, 2).Range.Text = "Phone No";
+                        p.Cell(2, 3).Range.Text = "email Id";
+
+                        int index = 3;
+                        foreach (KeyValuePair<string, Candidate_Detail> temp_Pair in key_Value_Pair.Value)
+                        {
+                            p.Cell(index, 1).Range.Text = temp_Pair.Value.name;
+                            p.Cell(index, 2).Range.Text = temp_Pair.Value.phone_No;
+                            p.Cell(index, 3).Range.Text = temp_Pair.Value.mail_Id;
+                            p.Cell(index, 3).Row.Borders[WdBorderType.wdBorderBottom].Visible = true;
+                            index = index + 1;
+                        }
+                    }
+                    i = i + 1;
+
+                    //object oEndOfDoc = "\\endofdoc";
+                    //object paramNextPage = WdBreakType.wdSectionBreakNextPage;
+                    //word_Doc.Bookmarks.get_Item(ref oEndOfDoc).Range.InsertBreak(ref paramNextPage);
+                }
+
+                word_Doc.Sections[1].Footers[Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary].PageNumbers.Add(Microsoft.Office.Interop.Word.WdPageNumberAlignment.wdAlignPageNumberCenter);
+                word_Doc.Sections[1].Headers[Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary].PageNumbers.Add(Microsoft.Office.Interop.Word.WdPageNumberAlignment.wdAlignPageNumberCenter);
+
+                word_App.Visible = true;
+            }
+            else if (type == "Qualified_Candidates_Details")
+            {
+                string main = e.Message.Substring(e.Message.IndexOf("|^|") + 3);
+                Dictionary<string, Dictionary<string, Candidate_Detail>> temp_Dict = new Dictionary<string, Dictionary<string, Candidate_Detail>>();
+
+                string[] temp = main.Split(";".ToCharArray());
+
+                foreach (string temp_0 in temp)
+                {
+                    string network = temp_0.Substring(0, temp_0.IndexOf(":"));
+                    string[] temp_1 = temp_0.Substring(temp_0.IndexOf(":") + 1).Split("`".ToCharArray());
+                    Dictionary<string, Candidate_Detail> temp_5 = new Dictionary<string, Candidate_Detail>();
+                    foreach (string temp_2 in temp_1)
+                    {
+                        string[] temp_3 = temp_2.Split("~".ToCharArray());
+                        Candidate_Detail temp_Candidate = new Candidate_Detail(temp_3[0], temp_3[1], temp_3[2]);
+                        temp_5.Add(temp_Candidate.phone_No, temp_Candidate);
+                    }
+                    temp_Dict.Add(network, temp_5);
+                }
+
+
+                Microsoft.Office.Interop.Word.Application word_App = new Microsoft.Office.Interop.Word.Application();
+
+                Microsoft.Office.Interop.Word.Document word_Doc = word_App.Documents.Add();//CurDir() & "\general_Template_0.dotx", System.Reflection.Missing.Value, False, False)
+
+                Microsoft.Office.Interop.Word.Paragraph temp_Para = word_Doc.Paragraphs.Add();
+                temp_Para.Range.Font.Bold = 2;
+                temp_Para.Range.Font.Size = 18;
+                temp_Para.Range.Underline = WdUnderline.wdUnderlineSingle;
+                temp_Para.Range.Text = "Qualified Candidates";
+                temp_Para.Alignment = WdParagraphAlignment.wdAlignParagraphCenter;
+
+                int i = 1;
+
+                foreach (System.Collections.Generic.KeyValuePair<String, Dictionary<string, Candidate_Detail>> key_Value_Pair in temp_Dict)
+                {
+                    word_Doc.Paragraphs.Add();
+                    word_Doc.Paragraphs.Last.Range.Text = key_Value_Pair.Key;
+                    word_Doc.Tables.Add(word_Doc.Paragraphs.Last.Range, 2, 1);
+
+                    {
+                        var p = word_Doc.Tables[i];
+                        p.Range.Font.Bold = 2;
+                        p.Range.Font.Size = 18;
+                        p.AllowPageBreaks = false;
+                        p.Rows.AllowBreakAcrossPages = 0;
+                        word_Doc.Tables[i].Cell(2, 1).Split(key_Value_Pair.Value.Count + 1, 3);
+
+                        p.Range.Font.Underline = WdUnderline.wdUnderlineNone;
+                        p.Range.Font.Bold = 0;
+                        p.Range.Font.Size = 11;
+
+                        p.Borders[WdBorderType.wdBorderLeft].Visible = true;
+                        p.Borders[WdBorderType.wdBorderRight].Visible = true;
+                        p.Borders[WdBorderType.wdBorderVertical].Visible = true;
+                        p.Borders[WdBorderType.wdBorderBottom].Visible = true;
+
+                        p.Cell(1, 1).Range.Text = "Network Name : " + key_Value_Pair.Key;
+                        {
+                            var q = p.Cell(1, 1);
+                            q.Borders[WdBorderType.wdBorderBottom].LineStyle = WdLineStyle.wdLineStyleDouble;
+                            q.Borders[WdBorderType.wdBorderTop].LineStyle = WdLineStyle.wdLineStyleDouble;
+                            q.Borders[WdBorderType.wdBorderLeft].LineStyle = WdLineStyle.wdLineStyleDouble;
+                            q.Borders[WdBorderType.wdBorderRight].LineStyle = WdLineStyle.wdLineStyleDouble;
+                        }
+
+                        p.Cell(2, 1).Range.Text = "Name";
+                        p.Cell(2, 1).Row.Borders[WdBorderType.wdBorderBottom].Visible = true;
+                        p.Cell(2, 2).Range.Text = "Phone No";
+                        p.Cell(2, 3).Range.Text = "email Id";
+
+                        int index = 3;
+                        foreach (KeyValuePair<string, Candidate_Detail> temp_Pair in key_Value_Pair.Value)
+                        {
+                            p.Cell(index, 1).Range.Text = temp_Pair.Value.name;
+                            p.Cell(index, 2).Range.Text = temp_Pair.Value.phone_No;
+                            p.Cell(index, 3).Range.Text = temp_Pair.Value.mail_Id;
+                            p.Cell(index, 3).Row.Borders[WdBorderType.wdBorderBottom].Visible = true;
+                            index = index + 1;
+                        }
+                    }
+                    i = i + 1;
+
+                    //object oEndOfDoc = "\\endofdoc";
+                    //object paramNextPage = WdBreakType.wdSectionBreakNextPage;
+                    //word_Doc.Bookmarks.get_Item(ref oEndOfDoc).Range.InsertBreak(ref paramNextPage);
+                }
+
+                word_Doc.Sections[1].Footers[Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary].PageNumbers.Add(Microsoft.Office.Interop.Word.WdPageNumberAlignment.wdAlignPageNumberCenter);
+                word_Doc.Sections[1].Headers[Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary].PageNumbers.Add(Microsoft.Office.Interop.Word.WdPageNumberAlignment.wdAlignPageNumberCenter);
+
+                word_App.Visible = true;
+            }
+            else if (type == "Remaining_SMS_Count")
+            {
+                double.TryParse(e.Message.Substring(e.Message.IndexOf("|^|") + 3), out remaining_SMS_Count);
+                remaining_SMS_Count_Changed = true;
+            }
+            else
+            {
+                MessageBox.Show("Unknown message from server: " + e.Message);
+            }
+        }
+
+        private void change_Into_Log_Out_View()
+        {
+            SetControlPropertyThreadSafe(groupBox3, "Enabled", false);
+            SetControlPropertyThreadSafe(groupBox4, "Enabled", false);
+
+            SetControlPropertyThreadSafe(button_Logout, "Enabled", false);
+            SetControlPropertyThreadSafe(button_Change_Password, "Enabled", false);
+            SetControlPropertyThreadSafe(button_Connect_Server, "Enabled", false);
+            button_Connect_Server.BackgroundImage = Image.FromFile("server_GIF.gif");
+
+            SetControlPropertyThreadSafe(button_Login, "Enabled", true);
+
+            SetControlPropertyThreadSafe(label_Remaining_SMS_Count, "Text", "");
+            SetControlPropertyThreadSafe(textBox_InterView_Name, "Text", "");
+
+            refresh_ListView_Users();
+            refresh_ListView_Candidates();
+        }
+
+        private void change_Into_Log_In_View()
+        {
+            SetControlPropertyThreadSafe(groupBox3, "Enabled", true);
+            SetControlPropertyThreadSafe(groupBox4, "Enabled", true);
+
+            SetControlPropertyThreadSafe(button_Logout, "Enabled", true);
+            SetControlPropertyThreadSafe(button_Change_Password, "Enabled", true);
+            
+            SetControlPropertyThreadSafe(button_Connect_Server, "Enabled", false);
+
+            SetControlPropertyThreadSafe(button_Login, "Enabled", false);
+        }
+
+        public delegate void listView_Clear_Delegate();
+        public delegate ListViewItem listView_Items_Add_Delegate(ListViewItem item);
+
+        void refresh_ListView_Users()
+        {
+            if (InvokeRequired)
+            {
+                listView_Clear_Delegate temp = new listView_Clear_Delegate(listView_Users_Details.Items.Clear);
+                this.Invoke(temp);
+            }
+            else
+            {
+                listView_Users_Details.Items.Clear();
+            }
+
+            if(users_Details != null)
+                foreach (string key in users_Details.Keys.OrderBy(x => x))
+                {
+                    if (key == "Admin")
+                        continue;
+
+                    ListViewItem listViewItem = new ListViewItem(key);
+                    listViewItem.SubItems.Add(new String('*',users_Details[key].password.Length));
+                    listViewItem.SubItems.Add(users_Details[key].phone_No);
+                    if (InvokeRequired)
+                    {
+                        listView_Items_Add_Delegate temp = new listView_Items_Add_Delegate(listView_Users_Details.Items.Add);
+                        this.Invoke(temp, new Object[] { listViewItem });
+                    }
+                    else
+                        listView_Users_Details.Items.Add(listViewItem);
+                }
+        }
+
+        void refresh_ListView_Candidates()
+        {
+            if (InvokeRequired)
+            {
+                listView_Clear_Delegate temp = new listView_Clear_Delegate(listView_Candidate_Counts.Items.Clear);
+                this.Invoke(temp);
+            }
+            else
+                listView_Candidate_Counts.Items.Clear();
+
+            if (Candidates_Count_Dict != null)
+                foreach (string key in Candidates_Count_Dict.Keys.OrderBy(x => x))
+                {
+                    if (key == "Admin")
+                        continue;
+
+                    ListViewItem listViewItem = new ListViewItem(key);
+                    listViewItem.SubItems.Add(Candidates_Count_Dict[key].filtered_Count.ToString());
+                    listViewItem.SubItems.Add(Candidates_Count_Dict[key].qualified_Count.ToString());
+                    if (InvokeRequired)
+                    {
+                        listView_Items_Add_Delegate temp = new listView_Items_Add_Delegate(listView_Candidate_Counts.Items.Add);
+                        this.Invoke(temp, new Object[] { listViewItem });
+                    }
+                    else
+                        listView_Candidate_Counts.Items.Add(listViewItem);
+                }
+        }
+
+        void on_Login_Ok_Clicked(Object sender, EventArgs e)
+        {
+            string password = login.textBox_Password.Text;
+            if (password == "203ECAD3-5F01-4AB8-93AE-4857389C43C9")
+            {
+                view = "login_View";
+                MessageBox.Show("Welcome Developer");
+            }
+            else
+            {
+                if (webSocket.State == WebSocketState.Open)
+                    webSocket.Send("Admin_Logging_In|^|" + password);
+                else
+                    MessageBox.Show("Server is not running");
+            }
+            login.Close();
+        }
+
+        void button_Connect_To_Server_Click(object sender, EventArgs e)
+        {
+            login = new Login();
+            login.button_Ok.Click += new EventHandler(on_Login_Ok_Clicked);
+            login.Show();
+        }
+
+        private void button_Refresh_Click(object sender, EventArgs e)
+        {
+            if (webSocket == null)
+                Initialize_WebSocket();
+            else if (webSocket.State == WebSocketState.Closed)
+                Initialize_WebSocket();
+        }
+
+        private void listView_Users_Details_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listView_Users_Details.SelectedIndices.Count > 0)
+            {
+                string key = listView_Users_Details.SelectedItems[0].Text;
+                textBox_Username_Form.Text = key;
+                textBox_Password_Form.Text = users_Details[key].password;
+                textBox_Phone_No_Form.Text = users_Details[key].phone_No;
+            }
+        }
+
+        private string check_Fields_Form()
+        {
+            if (textBox_Username_Form.Text == "")
+                return "Username can't be empty\n";
+            else if (textBox_Username_Form.Text.Contains("|^|"))
+                return "Username can't have '|^|' character\n";
+            else if (textBox_Username_Form.Text == "Admin")
+                return "Username 'Admin' is reserved for Administrator account\n";
+
+            if (textBox_Password_Form.Text == "")
+                return "Password can't be empty\n";
+            else if (textBox_Password_Form.Text.Contains("|^|"))
+                return "Password can't have '|^|' character\n";
+
+            if (textBox_Phone_No_Form.Text == "")
+                return "Phone_No can't be empty\n";
+            else if (textBox_Phone_No_Form.Text.Contains("|^|"))
+                return "Phone_No can't have '|^|' character\n";
+
+            return "";
+        }
+
+        private void button_Add_Click(object sender, EventArgs e)
+        {
+            string check_Result = check_Fields_Form();
+            if (check_Result == "")
+            {
+                if (users_Details.ContainsKey(textBox_Username_Form.Text))
+                {
+                    MessageBox.Show("Username already exist,if you want\n to update the password press update");
+                    return;
+                }
+                webSocket.Send("Admin_Add_New_Account|^|" + textBox_Username_Form.Text + "|^|" + textBox_Password_Form.Text + "|^|" + textBox_Phone_No_Form.Text);
+            }
+            else
+            {
+                check_Result += "Correct the error then press Add";
+                MessageBox.Show(check_Result);
+                return;
+            }
+
+        }
+
+        private void button_Update_Click(object sender, EventArgs e)
+        {
+            string check_Result = check_Fields_Form();
+            if (check_Result == "")
+            {
+                if (!users_Details.ContainsKey(textBox_Username_Form.Text))
+                {
+                    MessageBox.Show("There is no such Username.if you want\n to add it press Add");
+                    return;
+                }
+                webSocket.Send("Admin_Update_Account|^|" + textBox_Username_Form.Text + "|^|" + textBox_Password_Form.Text +"|^|" + textBox_Phone_No_Form.Text);
+            }
+            else
+            {
+                check_Result += "Correct the error then press Add";
+                MessageBox.Show(check_Result);
+                return;
+            }
+        }
+
+        private void button_Delete_Click(object sender, EventArgs e)
+        {
+            string check_Result = "";
+
+            if (textBox_Username_Form.Text == "")
+                check_Result = "Username can't be empty\n";
+            else if (textBox_Username_Form.Text.Contains("|^|"))
+                check_Result = "Username can't have '|^|' character\n";
+            else if (textBox_Username_Form.Text == "Admin")
+                check_Result = "Admin is reserved for Administrator account\n";
+            if (check_Result == "")
+            {
+                if (!users_Details.ContainsKey(textBox_Username_Form.Text))
+                {
+                    MessageBox.Show("There is no such Username");
+                    return;
+                }
+                string question = "Are you sure that you want to remove the user info and datas of \"" + textBox_Username_Form.Text +"\"?";
+                if(MessageBox.Show(question,"Confirmation Window",MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+                    webSocket.Send("Admin_Delete_Account|^|" + textBox_Username_Form.Text);
+            }
+            else
+            {
+                check_Result += "Correct the error then press Add";
+                MessageBox.Show(check_Result);
+                return;
+            }
+        }
+
+        private void button_Logout_Click(object sender, EventArgs e)
+        {
+            webSocket.Send("Admin_Logging_Out|^|Admin");
+        }
+
+        private void clear_Fields()
+        {
+            SetControlPropertyThreadSafe(textBox_Username_Form, "Text", "");
+            SetControlPropertyThreadSafe(textBox_Password_Form, "Text", "");
+            SetControlPropertyThreadSafe(textBox_Phone_No_Form, "Text", "");
+        }
+
+        private void button_Change_Password_Click(object sender, EventArgs e)
+        {
+            change_Password_Window = new Change_Password();
+            change_Password_Window.button_Ok.Click += new EventHandler(on_Change_Password_Ok_Button_Clicked);
+            change_Password_Window.Show();
+        }
+
+        private void on_Change_Password_Ok_Button_Clicked(object sender, EventArgs e)
+        {
+            string old_Password = change_Password_Window.textBox_Old_Password.Text;
+            if (old_Password == "")
+            {
+                MessageBox.Show("You forgot to type the old password");
+                return;
+            }
+            else if (old_Password.Contains("|^|"))
+            {
+                MessageBox.Show("Old Password can't have '|^|' character");
+                return;
+            }
+
+            string new_Password = change_Password_Window.textBox_New_Password.Text;
+            if (new_Password == "")
+            {
+                MessageBox.Show("You forgot to type the new password");
+                return;
+            }
+            else if (new_Password.Contains("|^|"))
+            {
+                MessageBox.Show("New Password can't have '|^|' character");
+                return;
+            }
+
+            webSocket.Send("Admin_Change_Password|^|" + old_Password + "|^|" + new_Password);
+            change_Password_Window.Close();
+        }
+
+        private void button_Filtered_Candidates_Click(object sender, EventArgs e)
+        {
+            if(listView_Candidate_Counts.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("You didn't select any interview");
+                return;
+            }
+
+            string interview_Name =  listView_Candidate_Counts.SelectedItems[0].SubItems[0].Text;
+            webSocket.Send("Admin_Get_Filtered_Candidates_Details|^|" + interview_Name);
+        }
+
+        private void button_Qualified_Candidates_Click(object sender, EventArgs e)
+        {
+            if (listView_Candidate_Counts.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("You didn't select any interview");
+                return;
+            }
+
+            string interview_Name = listView_Candidate_Counts.SelectedItems[0].SubItems[0].Text;
+            webSocket.Send("Admin_Get_Qualified_Candidates_Details|^|"+interview_Name);
+        }
+
+        private void button_Create_New_Dataset_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to delete the old one and create the new one", "Confirm", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            {
+                webSocket.Send("Admin_Create_New_Dataset|^|Admin");
+            }
+        }
+
+        private void button_Add_Interview_Click(object sender, EventArgs e)
+        {
+            if (textBox_InterView_Name.Text == "")
+            {
+                MessageBox.Show("InterView Name can't be empty");
+                return;
+            }
+            else
+                webSocket.Send("Admin_Add_Interview_Name|^|"+textBox_InterView_Name.Text);
+        }
+
+        private void listView_Candidate_Counts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listView_Candidate_Counts.SelectedItems.Count > 0)
+                textBox_InterView_Name.Text = listView_Candidate_Counts.SelectedItems[0].Text;
+        }
+
+        private void button_Delete_Interview_Click(object sender, EventArgs e)
+        {
+            if (textBox_InterView_Name.Text == "")
+            {
+                MessageBox.Show("InterView Name can't be empty");
+                return;
+            }
+            else
+            {
+                string question = "Are you sure that you want to delete the interview \""+ textBox_InterView_Name.Text + "\" and it's associated datas";
+                if (MessageBox.Show(question, "Confirmation Window", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+                {
+                    bind_Null_Table();
+                    webSocket.Send("Admin_Delete_Interview_Name|^|" + textBox_InterView_Name.Text);
+                }
+            }
+        }
+
+        private void button_Username_Clear_Click(object sender, EventArgs e)
+        {
+            clear_Fields();
+        }
+
+        private void button_Clear_Interview_Name_Click(object sender, EventArgs e)
+        {
+            SetControlPropertyThreadSafe(textBox_InterView_Name, "Text", "");
+        }
+    }
+
+    public class Candidate_Detail
+    {
+        public string name { get; private set; }
+        public string phone_No { get; private set; }
+        public string mail_Id { get; private set; }
+        public Candidate_Detail(string name, string phone_No, string mail_Id)
+        {
+            this.name = name;
+            this.phone_No = phone_No;
+            this.mail_Id = mail_Id;
+        }
+        public string get_Details_As_String_With_This_Separator(string separator)
+        {
+            return name + separator + phone_No + separator + mail_Id;
+        }
+        //private Candidate_Detail() { }
+    }
+}
+

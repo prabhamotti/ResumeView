@@ -1,0 +1,6 @@
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\HtmlAgilityPack.1.4.0.Source\HtmlAgilityPack\bin\Debug\HtmlAgilityPack.XML
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\HtmlAgilityPack.1.4.0.Source\HtmlAgilityPack\bin\Debug\HtmlAgilityPack.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\HtmlAgilityPack.1.4.0.Source\HtmlAgilityPack\bin\Debug\HtmlAgilityPack.pdb
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\HtmlAgilityPack.1.4.0.Source\HtmlAgilityPack\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\HtmlAgilityPack.1.4.0.Source\HtmlAgilityPack\obj\Debug\HtmlAgilityPack.dll
+C:\Documents and Settings\prabhakaran\Desktop\Capricorn Solutions\HtmlAgilityPack.1.4.0.Source\HtmlAgilityPack\obj\Debug\HtmlAgilityPack.pdb
